@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CurrentUserImage">
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:src="@drawable/icon_arrow_black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/messenger_Blue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/currentUserImageView"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/user_avatar_filled"
+        app:civ_border_color="#D3d3d3"
+        app:civ_border_width="2.5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/camera"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="110dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_camera_grey"
+        android:tint="#D3D3D3"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="2dp"
+        app:civ_circle_background_color="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/currentUserImageView"
+        app:layout_constraintEnd_toEndOf="@+id/currentUserImageView"
+        app:layout_constraintTop_toTopOf="@+id/currentUserImageView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/saveImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/button_background"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentUserImageView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

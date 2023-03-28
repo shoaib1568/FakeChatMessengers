@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Permissions for the Android below 11 (R) -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:name="fearless0.ads.AdsApplication"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo__1_"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo__1_"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FakeChatMessengers"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".activities.CurrentUserImage"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddNewUser"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ChatScreen"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ChatListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7540620933217632~7857369759" />
+        <meta-data android:name="applovin.sdk.key"
+            android:value="fyHktpsVTTHHLOV9A2ksRRweTmct7UhtANRTyqtNGRIN7txoi8qkA7udBQvTeLOeVn4Gv5C9cqtFVrZsC7Is2X"/>
+    </application>
+
+</manifest>

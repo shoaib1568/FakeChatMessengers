@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/chaticon"
+       android:icon="@drawable/message_icon_svg"
+        android:title=" " />
+    <item android:id="@+id/peopleicon"
+       android:icon="@drawable/people_svg"
+        android:title=" " />
+    <item android:id="@+id/compassiconchatlis"
+       android:icon="@drawable/compass_svg"
+        android:title=" " />
+
+
+</menu>

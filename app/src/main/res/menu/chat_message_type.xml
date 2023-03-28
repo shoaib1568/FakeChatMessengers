@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuSend"
+        android:title="@string/send"
+        />
+
+    <item
+        android:id="@+id/menuReceive"
+        android:title="@string/receive"
+        />
+
+</menu>

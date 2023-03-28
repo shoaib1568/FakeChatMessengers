@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "518625729674",
+    "project_id": "fake-chat-711e6",
+    "storage_bucket": "fake-chat-711e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518625729674:android:278cae3c22f3c14e69e173",
+        "android_client_info": {
+          "package_name": "com.codecue.fakechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518625729674-v89qcgp0ndd7r27u9saqoqo9m9g7fegk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codecue.fakechat",
+            "certificate_hash": "267aa3cb0c210758650d417f52a7d5d487b7d009"
+          }
+        },
+        {
+          "client_id": "518625729674-1mi05jcse0rfn7tpe3g05d56qotnl876.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMMrbpWt60bRgN5OY_EVVdmty-U45ouRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518625729674-1mi05jcse0rfn7tpe3g05d56qotnl876.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

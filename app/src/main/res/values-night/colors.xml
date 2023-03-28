@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#1074AC</color>
+    <color name="lightblue">#00A3FF</color>
+    <color name="lightblue_green">#53D1C5</color>
+
+    <color name="black_in_light_and_white_in_dark">#FFFFFF</color>
+    <color name="last_message">#455A64</color>
+    <color name="reverse">#000000</color>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FakeChat</string>
+    <string name="messenger_fake_chat">Fake Chat</string>
+    <string name="ContactUS">Contact Us</string>
+    <string name="no_not_really">No, not really</string>
+    <string name="get_premium">Get Premium</string>
+    <string name="no_ads">No Ads</string>
+    <string name="increase_connection_spreed">Increased connection speed</string>
+    <string name="premium_vertical_location">Premium Servers</string>
+    <string name="make_sure_to_restart_the_app_after_a_purchase">Make Sure To Restart The App After A Purchase</string>
+    <string name="subscription_notices">You can cancel subscription or free trial any time by canceling your subscription thought google account setting, or it will automatically renew.
+        This Must be done 24 hours before the end of the current period</string>
+    <string name="you_are_already_subscribed">You Are Already Subscribed</string>
+    <string name="billunavaliable">BILLING UNAVAILABLE</string>
+    <string name="your_story">Your Story</string>
+    <string name="chats">Chats</string>
+    <string name="search">Search</string>
+    <string name="active_now">Active now</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="send">Send</string>
+    <string name="receive">Receive</string>
+    <string name="delete">Delete</string>
+    <string name="seen">Seen</string>
+    <string name="clear_chat">Clear Chat</string>
+    <string name="delete_chat">Delete Chat</string>
+    <string name="save">Save</string>
+    <string name="powered_by_codecue">Powered By Codecue</string>
+    <string name="getting_bored_of_ads">Getting bored of ads, Don’t want to see ads.
+Try our Premium features.</string>
+    <string name="get_premium_access">Get Premium Access</string>
+    <string name="designed_and_developed_by">Designed and Developed by</string>
+    <string name="v">v</string>
+    <string name="version">1.0</string>
+    <string name="back_button">Back Button</string>
+    <string name="app_open_admob">ca-app-pub-7540620933217632/1406909803</string>
+    <string name="int_admob">ca-app-pub-7540620933217632/3907918827</string>
+    <string name="bnr_admob">ca-app-pub-7540620933217632/5709170799</string>
+    <string name="video_admob">ca-app-pub-7540620933217632/1769925781</string>
+    <string name="native_admob">ca-app-pub-7540620933217632/9927617404</string>
+    <string name="applovinintersitial">5107f7e0388659ed</string>
+</resources>
